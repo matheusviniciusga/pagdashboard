@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+#bodypag {
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    background-image: url(/graficodash/img/sedeinep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.centropag {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+header {
+    background-color: #C6C8FA;
+    color: #0B2976;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #C6C8FA;
+    color: #0B2976;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 5px;
+}
+
+#embaixoimg {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: inline-block;
+}
+
+.dolado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#pizza {
+    border: 5px solid #0B2976;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box
+}
+
+#barra {
+    border: 5px solid #0B2976;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box
+}
+
+#exemimg {
+    border: 5px solid #0B2976;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5%;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+}
+
+.grafre {
+    border: 5px solid #0B2976;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
+}
