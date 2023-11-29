@@ -1,85 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DashBoard - Grupo 4</title>
-    <link rel="stylesheet" href="style.css"> 
-
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="graf.js"></script>
-
+    <title>Censo 2022 Olinda</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    
-  <header>
-    <div>
-      <h1>Banco de Dados: Censo Escolar 2022</h1>
-    </div>
-    <div>
-      <img src="img/inep.png" alt="Imagem Representativa" width="250" height="100">
-    </div>
-  </header>
-
-  <div class="dolado">
-
-    <div class="junto">
-      <section>
-        <div class="grafre">
-          <div id="media_alunos" style="width: 550px; height: 350px;"></div>
+    <header>
+        <div>
+            <img src="img/branco.png" alt="">
         </div>
-      </section>
-    </div>
-    <div class="junto">
-      <section>
-        <div class="grafre">
-          <div id="barras" style="width: 550px; height: 350px;"></div>
+        <div>
+          <h1>Busca de Dados - Censo Escolar</h1>
         </div>
-      </section>
-    </div>
-    <div class="junto">
-      <section>
-        <div id="exemimg">
-          <img src="img/brazest.png" style="width: 500px; height: 350px;" >
+        <div>
+          <img src="img/inep.png" alt="Imagem Representativa" width="250" height="100">
         </div>
-      </section>
-    </div>
-
-  </div>
-
-  <div class="dolado">
-
-    <div class="junto">
-      <section>
-        <div id="barra">
-          <div id="tax_aprov" style="width: 700px; height: 300px;"></div>
+    </header>
+    <main>
+        <div class="ladoSite">
+            <h2>Busca de Dados</h2>
+            <form id="formulario">
+                <div class="pesquisaDados">
+                    <label for="bairro">Bairro:</label>
+                    <select id="bairro">
+                        <option value="valor1">Rio Doce</option>
+                        <option value="valor2">Jardim Brasil</option>
+                        <option value="valor3">Ouro Preto</option>
+                        <option value="valor4">Peixinhos</option>
+                        <option value="valor5">Vila Popular</option>
+                    </select>
+                </div>
+                <div class="pesquisaDados">
+                    <label for="redeEnsino">Rede de Ensino:</label>
+                    <select id="redeEnsino">
+                        <option value="valor1">Municipal</option>
+                        <option value="valor2">Estadual</option>
+                        <option value="valor3">Federal</option>
+                    </select>
+                </div>
+                <div class="pesquisaDados">
+                    <lapel for="instituicao">Instituição:</lapel>
+                    <select id="instituicao">
+                        <option value="valor1">Privada</option>
+                        <option value="valor2">Pública</option>
+                    </select>
+                </div>
+                <div class="pesquisaDados">
+                    <label for="Data/Ano">Data/Ano:</label>
+                    <select id="Data/Ano">
+                      <option value="valor1">2022</option>
+                    </select>
+                </div>
+                <button type="submit">Buscar</button>
+                <a href="paggraficos.html">Simulando uma busca feita</a>
+            </form>
         </div>
-      </section>
-    </div>
-    <div class="junto">
-      <section>
-        <div id="pizza">
-          <div id="dados_esc" style="width: 550px; height: 400px;"></div>
+        <div class="imagemOlinda">
+            <img src="img/mapa.png" alt="Mapa de Olinda">
         </div>
-      </section>
-    </div>
-
-  </div>
-
-  <footer>
-    <div>
-      <h3><a href="pagconst.html">Baixar Gráficos</a></h3>
-      <h3><a href="pagconst.html">Comparar Dados</a></h3>
-      <h3><a href="pagconst.html">Suporte</a></h3>
-    </div>
-    <div>
-      <img src="img/govbr.png" alt="Site do Governo" width="150" height="60">
-      <div id="embaixoimg"><a href="https://www.gov.br/pt-br">Página inicial do Governo</a></div>
-    </div>
-    <div>
-      <div><address>Contéudo fictício, publicado em<br> nome do <a href="https://www.gov.br/inep/pt-br">INEP (Instituto Nacional<br> de Estudos e Pesquisas Educacionais<br> Anísio Teixeira)</a> &copy;</address></div>
-    </div>
-  </footer>
-
+    </main>
+    <footer>
+        <div>
+            <h3><a href="#">Sobre</a></h3>
+            <h3><a href="#">Suporte</a></h3>
+        </div>
+        <div><address>&copy; Dash.IO  •  Politica e Privacidade  •  Termos de Uso</address></div>
+        <div class="imagem">
+            <img src="img/logounicap.png" alt="Logo Unicap" width: 134px; height: 55px>
+        </div>
+    </footer>
 </body>
 </html>

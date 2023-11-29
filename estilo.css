@@ -1,0 +1,106 @@
+body, html {
+height: 100%;
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: white;
+}
+
+header {
+background-color: #F3F3F3;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0 15px;
+}
+
+footer {
+background-color: #F3F3F3;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0 15px;
+}
+
+h1 {
+margin: 0;
+align-items: center;
+}
+
+img {
+max-height: 80px; /* Ajuste a altura conforme necessário */
+margin-left: 80px; /* Adiciona um espaço entre o título e a logo */
+}
+
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+height: calc(100vh - 100px); /* Ajusta a altura para centralizar */
+}
+
+main {
+display: flex;
+height: 90%;
+}
+
+.ladoSite {
+background-color: #022940;
+color: #fff;
+width: 30%;
+padding: 20px;
+height: 95.2%;
+}
+
+
+.imagemOlinda {
+flex: 1; /* Para ocupar o restante do espaço */
+padding: 20px;
+width: fit-content; /* Ajusta o tamanho para caber o conteúdo */
+background-color: #ffffff30;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.imagemOlinda img {
+max-width: 1000px;
+max-height: 1000px; /* Mantém a altura proporcional */
+border-radius: 10px;
+}
+
+/* Estilos para o formulário de busca */
+#formulario {
+display: flex;
+flex-direction: column;
+}
+
+.pesquisaDados {
+margin-bottom: 25px;
+}
+
+label {
+margin-bottom: 5px;
+display: block;
+color: #fff;
+}
+
+select, button {
+padding: 15px;
+border-radius: 20px;
+border: none;
+outline: none;
+width: 100%;
+margin-top: 20px;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #45a049;
+}
