@@ -61,6 +61,7 @@
                         <h4 class="text-center mb-3">Gráfico de Faixa Etária</h4>
                         <canvas id="ageChart"></canvas>
                         <div id="ageData"></div>
+                        <div class="botao"><button onclick="downloadChart('ageChart', 'faixa_etaria.png')">Exportar Gráfico</button></div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -68,6 +69,7 @@
                         <h4 class="text-center mb-3">Gráfico de Horário/Turno</h4>
                         <canvas id="timeChart"></canvas>
                         <div id="timeData"></div>
+                        <button onclick="downloadChart('timeChart', 'horario_turno.png')">Exportar Gráfico</button>
                     </div>
                 </div>
             </div>
@@ -79,6 +81,7 @@
                         <h4 class="text-center mb-3">Gráfico de Rede de Ensino</h4>
                         <canvas id="networkChart"></canvas>
                         <div id="networkData"></div>
+                        <button onclick="downloadChart('networkChart', 'rede_ensino.png')">Exportar Gráfico</button>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -86,6 +89,7 @@
                         <h4 class="text-center mb-3">Gráfico de Raça/Cor</h4>
                         <canvas id="raceChart"></canvas>
                         <div id="raceData"></div>
+                        <button onclick="downloadChart('raceChart', 'raca_cor.png')">Exportar Gráfico</button>
                     </div>
                 </div>
             </div>

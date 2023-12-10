@@ -283,3 +283,12 @@ flex-wrap: wrap;
 width: 100%;
 }
 }
+
+button {
+background-color: #022940;
+color: white;
+width: 18%;
+padding: 5px;
+margin: 10px;
+border: none;
+}

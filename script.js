@@ -53,6 +53,18 @@ function renderChart(id, type, data) {
 }
 });
 
+function downloadChart(chartId, filename) {
+  const canvas = document.getElementById(chartId);
+  
+  const downloadLink = document.createElement('a');
+  downloadLink.href = canvas.toDataURL('image/png');
+  downloadLink.download = filename;
+  
+  document.body.appendChild(downloadLink);
+  downloadLink.click();
+  document.body.removeChild(downloadLink);
+}
+
 const team = [
     {
       name: "Mariana dos Anjos",
